@@ -1,0 +1,93 @@
+body {
+    background-color:white;
+    font-family: Georgia;
+    background-image: url(blue-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    Padding: 0;
+}
+
+#wrap {
+    width:60%;
+    border: 2px solid black;
+    margin:0 auto;
+}
+
+header img {
+    width: 95%
+}
+
+header {
+    background-color:white;
+    text-align: center;
+    padding-bottom: -4px;
+}
+
+nav {
+    background-color:blue;
+    padding: 40px;
+    text-align: center;
+}
+
+nav li {
+    display:inline;
+}
+
+nav ul {
+    margin: 0;
+    padding:0;
+}
+
+nav a {
+    color:  white;
+    padding: 20px;
+    margin-right:10px;
+    font-family: verdana;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+section {
+    background-color: white;
+    padding: 30px;
+    overflow: auto;
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+div.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color:#de602a;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.officer {
+    width: 50%;
+    float: right;
+}
+
+figcaption  {
+    color: #fff;
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+}
