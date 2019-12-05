@@ -1,0 +1,85 @@
+body {
+    background-color:gray;
+    font-family: Georgia;
+    background-image: url(stadium2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    Padding: 0;
+}
+
+#wrap {
+    width:80%;
+    border: 2px solid white;
+    margin:0 auto;
+}
+
+header img {
+    width: 100%
+}
+
+header {
+    background-color:#cccccc;
+    text-align: center;
+}
+
+nav {
+    background-color:#696969;
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display:inline;
+}
+
+nav ul {
+    margin: 0;
+    padding:0;
+}
+
+nav a {
+    color: #CD853F;
+    padding: 20px;
+    margin-right:10px;
+    font-family: verdana;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    overflow: auto;
+}
+
+h1 {
+    color: #0000ff;
+    font-size: 30px;
+}
+
+div.box {
+    width: 200px;
+    height:  200px;
+    background-color: orange;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color:black;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.officer {
+    width: 30%;
+    float: right;
+}
